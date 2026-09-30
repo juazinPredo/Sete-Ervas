@@ -14,7 +14,7 @@ export function CardLogin({ children }: { children: React.ReactNode }) {
 
 const styles =StyleSheet.create({
         card: {
-        backgroundColor: '#ffffff',
+        backgroundColor: '#d3d3d3',
         borderRadius: 15,
         padding: 30,
         elevation: 5,

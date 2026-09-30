@@ -26,8 +26,8 @@ export default function Termos() {
             <Switch
                 value={termosAceitos}
                 onValueChange={setTermosAceitos} // Atualiza o estado 'termosAceitos' (true/false)
-                thumbColor={termosAceitos ? '#5B67CA' : '#f4f3f4'}
-                trackColor={{ false: '#767577', true: '#C4C9F3' }}
+                thumbColor={termosAceitos ? '#023505' : '#636363'}
+                trackColor={{ false: '#fafafa', true: '#C4C9F3' }}
             />
         </View>
     );
@@ -35,7 +35,7 @@ export default function Termos() {
 }
 const styles = StyleSheet.create({
     input: {
-        borderWidth: 1,
+        borderWidth: 12,
         borderColor: '#CCCCCC',
         borderRadius: 8,
         paddingHorizontal: 16,
@@ -43,6 +43,9 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginBottom: 20,
         backgroundColor: '#FAFAFA',
+        shadowColor: '#000',
+        shadowOpacity: 1,
+        shadowRadius: 15,
     },
     switchContainer: {
         flexDirection: 'row',
@@ -50,6 +53,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop:19,
         marginBottom: 24,
+
     },
     label: {
         fontSize: 16,
