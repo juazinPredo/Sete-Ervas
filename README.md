@@ -5,8 +5,8 @@
 ---
 
 ##  Identificação Acadêmica
-* **Aluno Desenvolvedor:** João Pedro Mendes
-* **Disciplina:** Programação para Dispositivos Móveis
+* **Aluno Desenvolvedor:** João Pedro Mendes**
+* **Disciplina:** Programação para Dispositivos Móveis *
 ---
 
 ##  Proposta do Projeto
@@ -101,5 +101,5 @@ eas build -p android --profile preview
 ---
 
 ## 📄 Licença e Autoria
-Desenvolvido por **João Pedro Mendes do Nascimento** (Matrícula: `25214290017`).  
+Desenvolvido por **João Pedro Mendes **
 Projeto acadêmico sob licença MIT.
