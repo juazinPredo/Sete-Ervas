@@ -1,0 +1,44 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Relatório de Implementação da Câmera</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; color: #1E293B; line-height: 1.5; margin: 40px; }
+h1 { color: #05614B; font-size: 22pt; border-bottom: 2px solid #05614B; padding-bottom: 6px; }
+h2 { color: #05614B; font-size: 15pt; margin-top: 20px; border-bottom: 1px solid #CBD5E1; padding-bottom: 4px; }
+.badge { background-color: #E0F2FE; color: #0369A1; padding: 6px 12px; border-radius: 6px; font-size: 10pt; font-weight: bold; display: inline-block; }
+pre { background-color: #F1F5F9; border: 1px solid #CBD5E1; border-radius: 6px; padding: 12px; font-family: 'Consolas', monospace; font-size: 9.5pt; }
+.success-box { background-color: #ECFDF5; border-left: 4px solid #10B981; padding: 12px; font-family: 'Consolas', monospace; color: #065F46; font-size: 10pt; margin: 15px 0; }
+</style>
+</head>
+<body>
+<h1>PROJETO SETE ERVAS</h1>
+<p><em>Relatório de Implementação: Câmera Nativa e Galeria de Fotos</em></p>
+<div class="badge">Data: 06 de Novembro de 2026 | Status: 100% Funcional e Validado</div>
+
+<h2>1. O que foi feito</h2>
+<p>Foi realizada a integração completa do <strong>expo-image-picker</strong> com o botão flutuante e o container de rolagem (CardColection) na tela <code>colecao.tsx</code>.</p>
+
+<h2>2. Problemas Corrigidos</h2>
+<ul>
+    <li>O <code>useState</code> foi posicionado corretamente dentro do componente <code>CuidadosPlanta</code>.</li>
+    <li>Corrigido o erro de sintaxe <code>alert.alert</code> para <code>Alert.alert</code>.</li>
+    <li>A estrutura JSX que havia sido colada dentro da condicional de permissão foi restaurada e organizada.</li>
+</ul>
+
+<h2>3. Arquivos Modificados</h2>
+<ul>
+    <li><code>src/app/(tabs)/colecao.tsx</code>: Adicionada função de câmera e galeria com ScrollView.</li>
+    <li><code>src/components/ui/BotaoAdicionar.tsx</code>: Configurado com evento onPress e contraste visual perfeito.</li>
+    <li><code>src/components/ui/index.ts</code>: Exportação centralizada do botão.</li>
+</ul>
+
+<h2>4. Validação TypeScript</h2>
+<div class="success-box">
+$ npx tsc --noEmit<br>
+<strong>[SUCESSO] 0 erros encontrados!</strong>
+</div>
+</body>
+</html>

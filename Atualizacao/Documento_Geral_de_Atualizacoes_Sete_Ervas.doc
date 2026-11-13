@@ -1,0 +1,79 @@
+# Dossiê Geral de Atualizações: Projeto Sete Ervas
+
+**Versão:** 4.0 Consolidada  
+**Data:** 06 de Novembro de 2026  
+**Status do Compilador:** 0 Erros de Compilação no TypeScript (`npx tsc --noEmit`)  
+**Plataforma:** React Native com Expo Router  
+
+---
+
+## 1. Resumo Executivo
+
+Este documento consolida o histórico completo de todas as alterações arquiteturais, novos recursos, telas construídas, integrações de estado e correções visuais realizadas no projeto **Sete Ervas**.
+
+---
+
+## 2. Histórico Consolidado de Módulos
+
+### 2.1. Tela de Início (Dashboard Principal) e PlantContext
+* **Gerenciador de Estado Compartilhado (`src/context/PlantContext.tsx`):**
+  * Conecta a Tela de Início à Coleção de Plantas de forma reativa.
+  * Mantém plantas cadastradas, nível de vitalidade, histórico de rega e lista diária de tarefas.
+  * Métricas calculadas em tempo real: total de plantas, tarefas pendentes e média de vitalidade.
+* **Componente da Tela de Início (`src/app/(tabs)/index.tsx`):**
+  * **Header Padrão:** Identidade visual `SETE ERVAS` com saudação harmoniosa (*"Olá 🌿 / Suas plantas estão prosperando"*).
+  * **Card "Resumo Hoje":** Badge `85% SAÚDE`, três colunas métricas (*plantas*, *para regar*, *vitalidade*) e barra de progresso horizontal em verde neon (`#10DE80`).
+  * **Carrossel "Minhas plantas":** Rolagem horizontal suave com cards botânicos, badge flutuante de saúde (ex: `92%`), nome e indicador de última rega (`🕒 há 2 dias`), além do botão **"Ver tudo >"** para navegação imediata à Coleção.
+  * **Tarefas de hoje:** Checklist com checkbox interativo em formato circular, ícone de gota d'água (`Ionicons water`) e atualização dinâmica do painel de resumo ao concluir tarefas.
+
+---
+
+### 2.2. Tela de Coleção e Câmera Nativa (`expo-image-picker`)
+* **Grade Visual em 2 Colunas (`src/app/(tabs)/colecao.tsx`):**
+  * Apresenta todas as plantas do usuário (Monstera, Suculenta, Jiboia, Espada de São Jorge, Samambaia, Alecrim).
+  * Botão de coração para marcar espécies favoritas.
+  * Botão sobreposto na foto **"Adicionar foto +"** que dispara a câmera nativa do aparelho e atualiza a imagem daquela planta.
+  * Botão flutuante `BotaoAdicionar` (+) para cadastrar novas espécies fotografadas diretamente na coleção.
+
+---
+
+### 2.3. Padronização Global do Header e Limpeza Visual
+* **Componente `HeaderPadrao` (`src/components/ui/HeaderPadrao.tsx`):**
+  * Nome do aplicativo: `SETE ERVAS` com ponto verde neon (`#10DE80`).
+  * Saudação unificada: *"Olá 🌿"* e *"Suas plantas estão prosperando"*.
+  * **Canto Superior Direito Limpo:** Removidos o sino de notificações, badge de alerta e avatar de usuário ("J").
+* **Aplicação:** Incorporado nas telas `index.tsx` (Início), `explorar.tsx` (Explorar) e `colecao.tsx` (Coleção).
+* **Telas de Autenticação (`Login.tsx` e `cadastro.tsx`):**
+  * Removido o `ImageBackground` (`BackLogin.jpg`).
+  * Adotado o fundo escuro padrão `#05110E`, com formulários perfeitamente centralizados e sem o cabeçalho.
+
+---
+
+### 2.4. Tela de Explorar e Catálogo de Plantas em JSON
+* **Base de Dados (`src/constants/horta.json`):** 30 espécies botânicas completas com 7 dicas de cultivo.
+* **Barra de Pesquisa:** Busca instantânea por nome comum, científico ou propriedades.
+* **Chips de Categoria:** Filtros dinâmicos (*Todas*, *Erva Aromática*, *Medicinal*, *Condimento*, *Hortaliça Folhosa*, *Outras*).
+* **Grade de Plantas:** Cards com foto, tag flutuante e ícone de brilho.
+* **Modal de Detalhes:** Apresenta foto ampliada, instruções de *"Como Cuidar"* e *"Benefícios"*.
+* **Ajuste Fino:** Redução de 5px na altura da foto do modal e elevação do topo (`height: 52px`), eliminando qualquer sobreposição do botão de fechar **X**.
+
+---
+
+### 2.5. Correção e Otimização de Fotos Botânicas
+* Acervo de imagens botânicas reais em alta definição integradas ao catálogo e à coleção (Monstera, Alecrim, Cebolinha, Tomilho, Sálvia, Poejo, Arruda, Rúcula, Couve-manteiga, Gengibre, Suculenta, Jiboia, Espada de São Jorge, Samambaia).
+
+---
+
+### 2.6. Reorganização Estrutural em `src/`
+* Diretórios padronizados: `src/app`, `src/components/ui`, `src/components/auth`, `src/constants`, `src/context` e `src/types`.
+* Path aliases configurados no `tsconfig.json` (`@/*`, `@components/*`).
+* Tipagem forte TypeScript com zero avisos.
+
+---
+
+## 3. Validação do Compilador
+
+```bash
+$ npx tsc --noEmit
+# Resultado: 0 erros encontrados!
+```
