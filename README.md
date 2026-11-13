@@ -4,15 +4,12 @@
 
 ---
 
-## 👨‍💻 Identificação Acadêmica
-* **Aluno Desenvolvedor:** João Pedro Mendes do Nascimento
-* **Matrícula:** 25214290017
+##  Identificação Acadêmica
+* **Aluno Desenvolvedor:** João Pedro Mendes
 * **Disciplina:** Programação para Dispositivos Móveis
-* **Repositório:** [https://github.com/juazinPredo/Sete-Ervas](https://github.com/juazinPredo/Sete-Ervas)
-
 ---
 
-## 🎯 Proposta do Projeto
+##  Proposta do Projeto
 O cultivo caseiro de plantas e hortas frequentemente falha pela falta de rotina e conhecimento das particularidades de rega de cada espécie. O **Sete Ervas** resolve essa dor atuando como um assistente botânico de bolso:
 - Centraliza a **coleção de plantas** do usuário com acompanhamento visual e fotográfico.
 - Estabelece um **gerenciador diário de tarefas** com checklist persistente.
@@ -22,18 +19,18 @@ O cultivo caseiro de plantas e hortas frequentemente falha pela falta de rotina 
 
 ---
 
-## 📱 Recursos Nativos Implementados (3 Recursos)
-1. **📸 Câmera Nativa (`expo-image-picker` / `launchCameraAsync`):**
+##  Recursos Nativos Implementados (3 Recursos)
+1. **Câmera Nativa (`expo-image-picker` / `launchCameraAsync`):**
    - Captura fotos em tempo real para identificação imediata das espécies na coleção, com permissão em tempo de execução e corte quadrado (1:1).
-2. **🖼️ Galeria de Imagens do Sistema (`expo-image-picker` / `launchImageLibraryAsync`):**
+2. ** Galeria de Imagens do Sistema (`expo-image-picker` / `launchImageLibraryAsync`):**
    - Importação de fotos salvas no armazenamento interno do aparelho para o perfil de cada planta.
-3. **🔔 Sistema de Notificações e Alarmes Locais (`expo-notifications`):**
+3. ** Sistema de Notificações e Alarmes Locais (`expo-notifications`):**
    - Canal nativo registrado no Android (`lembretes-sete-ervas`) com alta prioridade, vibração e luz botânica.
    - Agendamento diário de alarmes periódicos em background (`scheduleNotificationAsync`) e botão de teste imediato.
 
 ---
 
-## 🛠️ Tecnologias e Recursos Utilizados
+##  Tecnologias e Recursos Utilizados
 - **React Native 0.88.1 & Expo SDK 58**
 - **Expo Router (Tabs & Stack):** Navegação fluida por abas inferiores e telas empilhadas.
 - **AsyncStorage (`@react-native-async-storage/async-storage`):** Persistência permanente em disco no formato chave-valor para plantas e tarefas.
@@ -44,7 +41,7 @@ O cultivo caseiro de plantas e hortas frequentemente falha pela falta de rotina 
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 ```bash
 Sete-Ervas/
 ├── assets/                  # Imagens locais, ícones e base de dados JSON inicial
@@ -64,7 +61,7 @@ Sete-Ervas/
 
 ---
 
-## 🚀 Como Executar Localmente
+##  Como Executar Localmente
 
 ### Pré-requisitos
 - [Node.js](https://nodejs.org/) (versão LTS recomendada)
@@ -88,7 +85,7 @@ Escaneie o QR Code exibido no terminal com o aplicativo **Expo Go** no celular.
 
 ---
 
-## 📦 Compilação do APK
+##  Compilação do APK
 O arquivo standalone de instalação (`.apk`) é gerado via **EAS Build**:
 ```bash
 # Instalação do EAS CLI
