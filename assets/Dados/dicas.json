@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "planta": "Manjericão",
+    "tipo": "Erva Aromática",
+    "emoji": "🌿",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Sol direto por pelo menos 4 a 6 horas diárias. Gosta muito de calor e claridade.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Mantenha a terra sempre levemente úmida. Em dias quentes, regue 1 vez ao dia sem encharcar.",
+        "icone": "water"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "planta": "Suculentas e Cactos",
+    "tipo": "Suculenta",
+    "emoji": "🌵",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Sol pleno e muita claridade. Deixe perto da janela mais ensolarada da casa.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Só regue quando a terra estiver 100% seca. No inverno, uma rega a cada 15 dias já é o bastante.",
+        "icone": "water"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "planta": "Jiboia",
+    "tipo": "Folhagem de Interior",
+    "emoji": "🪴",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Meia-sombra ou luz indireta. Ama claridade perto da janela, mas sol forte queima as folhas.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Moderada, de 1 a 2 vezes por semana. Faça o teste do dedo: se a terra estiver úmida, espere.",
+        "icone": "water"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "planta": "Alecrim",
+    "tipo": "Erva Rústica",
+    "emoji": "🌱",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Sol forte e direto o dia todo. Quanto mais sol e ar fresco ele receber, melhor.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Pouca água. Espere o solo secar totalmente antes de molhar de novo; aguenta seca.",
+        "icone": "water"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "planta": "Samambaia",
+    "tipo": "Pendente Tropical",
+    "emoji": "🌿",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Sombra com bastante claridade natural. Nunca deixe pegar sol direto do meio-dia.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Regas frequentes para manter a terra sempre fresca e úmida, sem acumular água no prato.",
+        "icone": "water"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "planta": "Espada-de-São-Jorge",
+    "tipo": "Planta Resistente",
+    "emoji": "🗡️",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Muito adaptável: aguenta desde sol direto até cantos de sombra dentro de casa.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Regas bem espaçadas. Uma rega a cada 10 a 15 dias costuma ser suficiente.",
+        "icone": "water"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "planta": "Hortelã",
+    "tipo": "Erva Medicinal",
+    "emoji": "🍃",
+    "dicas": [
+      {
+        "titulo": "Luz de sol",
+        "descricao": "Meia-sombra ou sol da manhã. Sol muito forte e seco pode queimar suas folhas jovens.",
+        "icone": "sunny"
+      },
+      {
+        "titulo": "Rega",
+        "descricao": "Gosta de terra sempre úmida e fresca. Não deixe o solo secar completamente.",
+        "icone": "water"
+      }
+    ]
+  }
+]

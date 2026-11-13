@@ -1,0 +1,306 @@
+{
+  "horta_domestica": {
+    "dicas_gerais_de_cuidado": [
+      {
+        "topico": "Iluminação",
+        "descricao": "A maioria das hortaliças e ervas precisa de pelo menos 4 a 6 horas de sol direto por dia. Posicione os vasos próximos a janelas ensolaradas, varandas ou quintais voltados para o norte ou leste."
+      },
+      {
+        "topico": "Rega Consciente",
+        "descricao": "Faça o 'teste do dedo': afunde o dedo cerca de 2 cm na terra. Se sair sujo e úmido, não regue; se sair seco, é hora de regar. Prefira regar no início da manhã ou no final da tarde para evitar a evaporação rápida e queimaduras nas folhas."
+      },
+      {
+        "topico": "Drenagem do Vaso",
+        "descricao": "Todo vaso precisa ter furos no fundo. Faça uma camada de drenagem com argila expandida, brita ou cacos de telha, seguida de manta de bidim (ou filtro de café) antes de colocar a terra, evitando o apodrecimento das raízes."
+      },
+      {
+        "topico": "Substrato e Adubação",
+        "descricao": "Use uma mistura leve: 2 partes de terra vegetal, 1 parte de húmus de minhoca ou composto orgânico e 1 parte de vermiculita ou areia grossa. Reponha os nutrientes a cada 30 ou 45 dias com adubos orgânicos (húmus, bokashi, farinha de ossos ou torta de mamona)."
+      },
+      {
+        "topico": "Poda e Colheita",
+        "descricao": "Retire sempre folhas secas, amareladas ou doentes para a planta não gastar energia com elas. Em ervas como manjericão e hortelã, podar as pontas estimula a planta a crescer mais cheia e lateralmente, além de retardar o florescimento precoce."
+      },
+      {
+        "topico": "Controle Natural de Pragas",
+        "descricao": "Inspecione o verso das folhas regularmente. Contra pulgões, cochonilhas e mosca-branca, borrife óleo de neem ou uma solução caseira de água com algumas gotas de detergente neutro (sempre no fim da tarde, sem sol direto)."
+      },
+      {
+        "topico": "Associação de Culturas (Plantas Companheiras)",
+        "descricao": "Evite plantar hortelã no mesmo vaso de outras plantas (suas raízes são invasoras). Por outro lado, plantar manjericão próximo a tomates ajuda a repelir insetos e melhora o desenvolvimento de ambos."
+      }
+    ],
+    "plantas": [
+      {
+        "id": 1,
+        "nome": "Manjericão",
+        "nome_cientifico": "Ocimum basilicum",
+        "categoria": "Erva Aromática",
+        "como_cuidar": "Sol pleno (mínimo de 4 a 6h diárias). Regas frequentes para manter o solo levemente úmido, sem encharcar as folhas. Pode as flores assim que surgirem para evitar que as folhas fiquem amargas e a planta morra.",
+        "beneficios": "Rico em antioxidantes e óleos essenciais com ação anti-inflamatória, digestiva e calmante leve.",
+        "imagem": "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 2,
+        "nome": "Alecrim",
+        "nome_cientifico": "Salvia rosmarinus",
+        "categoria": "Erva Aromática",
+        "como_cuidar": "Sol pleno (muito sol) e solo arenoso, muito bem drenado. Regas espaçadas: só molhe quando a terra estiver completamente seca. Não tolera excesso de umidade.",
+        "beneficios": "Estimulante da memória e concentração, melhora a circulação sanguínea, alivia gases e auxilia na digestão de gorduras.",
+        "imagem": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 3,
+        "nome": "Hortelã",
+        "nome_cientifico": "Mentha spicata",
+        "categoria": "Erva Aromática / Medicinal",
+        "como_cuidar": "Meia-sombra ou sol pleno (desde que o solo fique sempre úmido). Deve ser plantada em vaso exclusivo, pois suas raízes se espalham rapidamente e sufocam outras plantas.",
+        "beneficios": "Ação digestiva potente, alivia náuseas, síndrome do intestino irritável e atua como descongestionante nasal e expectorante.",
+        "imagem": "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 4,
+        "nome": "Cebolinha",
+        "nome_cientifico": "Allium schoenoprasum",
+        "categoria": "Condimento",
+        "como_cuidar": "Sol pleno (mínimo 4h de sol). Solo rico em matéria orgânica e mantido úmido. Ao colher, corte as folhas na base ou retire a folha inteira de fora para dentro para engrossar o bulbo.",
+        "beneficios": "Fonte de vitaminas A e C, além de compostos sulfurados que fortalecem a imunidade e auxiliam no controle da pressão arterial.",
+        "imagem": "https://images.unsplash.com/photo-1559836833-2a2c99b1f54f?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 5,
+        "nome": "Salsinha",
+        "nome_cientifico": "Petroselinum crispum",
+        "categoria": "Condimento",
+        "como_cuidar": "Meia-sombra ou sol ameno da manhã. Gosta de solo sempre fresco e úmido. Evite deixá-la sob sol escaldante da tarde sem proteção.",
+        "beneficios": "Altamente diurética, combate a retenção de líquidos, auxilia a saúde renal e é riquíssima em vitamina K, vitamina C e ferro.",
+        "imagem": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 6,
+        "nome": "Coentro",
+        "nome_cientifico": "Coriandrum sativum",
+        "categoria": "Condimento",
+        "como_cuidar": "Sol pleno e clima quente. Solo bem drenado e fértil. Plante diretamente no vaso definitivo, pois não tolera bem o transplante de raízes.",
+        "beneficios": "Auxilia na digestão, ajuda na desintoxicação de metais pesados no organismo e possui propriedades ansiolíticas e antioxidantes.",
+        "imagem": "https://images.unsplash.com/photo-1588879460618-9249e7d947d1?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 7,
+        "nome": "Orégano",
+        "nome_cientifico": "Origanum vulgare",
+        "categoria": "Erva Aromática",
+        "como_cuidar": "Sol pleno e regas moderadas (deixe o substrato secar levemente entre as regas). Podas regulares mantêm a planta compacta e aromática.",
+        "beneficios": "Forte ação antibacteriana, antifúngica e antioxidante devido ao carvacrol e timol; excelente para dores de garganta e gripes.",
+        "imagem": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 8,
+        "nome": "Tomilho",
+        "nome_cientifico": "Thymus vulgaris",
+        "categoria": "Erva Aromática",
+        "como_cuidar": "Sol pleno, solo mais seco, calcário e muito bem drenado. Regue pouco; é muito resistente à seca e sensível ao apodrecimento radicular.",
+        "beneficios": "Poderoso antisséptico respiratório natural, alivia tosse, bronquite e fortalece o sistema imunológico.",
+        "imagem": "https://images.unsplash.com/photo-1726924245031-45478195b89f?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 9,
+        "nome": "Manjerona",
+        "nome_cientifico": "Origanum majorana",
+        "categoria": "Erva Aromática",
+        "como_cuidar": "Sol pleno, solo leve e bem drenado. Regas regulares sem encharcar. Proteja de ventos muito frios e geadas.",
+        "beneficios": "Ação calmante no sistema nervoso, reduz o estresse, melhora a qualidade do sono e alivia cólicas estomacais e menstruais.",
+        "imagem": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 10,
+        "nome": "Sálvia",
+        "nome_cientifico": "Salvia officinalis",
+        "categoria": "Erva Aromática / Medicinal",
+        "como_cuidar": "Sol pleno e solo bem drenado. Regue apenas quando a terra secar. Não molhe suas folhas aveludadas para evitar o aparecimento de fungos.",
+        "beneficios": "Auxilia na regulação hormonal (aliviando ondas de calor da menopausa), combate inflamações na gengiva e garganta e melhora a digestão.",
+        "imagem": "https://images.unsplash.com/photo-1787477501198-396484009619?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 11,
+        "nome": "Lavanda (Alfazema)",
+        "nome_cientifico": "Lavandula angustifolia",
+        "categoria": "Aromática / Medicinal",
+        "como_cuidar": "Sol pleno (mínimo 6h de sol direto), solo arenoso e alcalino com excelente drenagem. Regas espaçadas.",
+        "beneficios": "Reconhecida pelo efeito ansiolítico e relaxante; combate a insônia, alivia dores de cabeça tensionais e é cicatrizante para a pele.",
+        "imagem": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 12,
+        "nome": "Erva-cidreira (Melissa)",
+        "nome_cientifico": "Melissa officinalis",
+        "categoria": "Medicinal",
+        "como_cuidar": "Meia-sombra (sol da manhã). Solo rico em matéria orgânica e levemente úmido. O sol muito forte queima suas folhas sensíveis.",
+        "beneficios": "Calmante suave excelente contra ansiedade, insônia e palpitações nervosas, além de aliviar gases e cólicas abdominais.",
+        "imagem": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 13,
+        "nome": "Capim-limão (Capim-santo)",
+        "nome_cientifico": "Cymbopogon citratus",
+        "categoria": "Medicinal",
+        "como_cuidar": "Sol pleno e vaso grande/profundo, pois forma touceiras volumosas. Regas regulares mantendo o solo levemente úmido.",
+        "beneficios": "Propriedades analgésicas, sedativas leves, hipotensoras (ajuda a baixar a pressão) e febrífugas.",
+        "imagem": "https://images.unsplash.com/photo-1598880940371-c756e015fea1?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 14,
+        "nome": "Camomila",
+        "nome_cientifico": "Matricaria chamomilla",
+        "categoria": "Medicinal",
+        "como_cuidar": "Sol pleno ou meia-sombra em regiões muito quentes. Solo bem drenado e rico em húmus. Regas moderadas sem encharcar.",
+        "beneficios": "Suaviza irritações na pele, acalma o sistema nervoso, induz o sono e reduz inflamações gastrointestinais e cólicas.",
+        "imagem": "https://images.unsplash.com/photo-1516054575922-f0b8eeadec1a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 15,
+        "nome": "Babosa (Aloe Vera)",
+        "nome_cientifico": "Aloe vera",
+        "categoria": "Suculenta Medicinal",
+        "como_cuidar": "Sol pleno e solo para cactos/suculentas (bem arenoso). Regue apenas 1 vez por semana ou a cada 15 dias no inverno.",
+        "beneficios": "O gel interno das folhas é um potente regenerador celular, cicatrizante de queimaduras, hidratante capilar e anti-inflamatório tópico.",
+        "imagem": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 16,
+        "nome": "Boldo-do-Chile (ou Boldo-da-Terra)",
+        "nome_cientifico": "Plectranthus barbatus",
+        "categoria": "Medicinal",
+        "como_cuidar": "Sol pleno ou meia-sombra. Planta extremamente rústica; exige pouca água e adapta-se facilmente a vasos médios.",
+        "beneficios": "Estimula a produção da bile pelo fígado, aliviando azia, má digestão, ressaca e desconfortos gástricos.",
+        "imagem": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 17,
+        "nome": "Poejo",
+        "nome_cientifico": "Mentha pulegium",
+        "categoria": "Medicinal / Aromática",
+        "como_cuidar": "Meia-sombra ou sol pleno, com solo sempre úmido e fértil. Cresce de forma rasteira, ideal para vasos largos (jardineiras).",
+        "beneficios": "Excelente expectorante para gripes, resfriados e tosse, além de estimular a digestão e aliviar gases.",
+        "imagem": "https://images.unsplash.com/photo-1648036933917-762235e009c7?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 18,
+        "nome": "Arruda",
+        "nome_cientifico": "Ruta graveolens",
+        "categoria": "Medicinal / Repelente",
+        "como_cuidar": "Sol pleno e solo bem drenado. Regas moderadas. Excelente para colocar na borda da horta para afastar pragas pelo cheiro forte.",
+        "beneficios": "Ação repelente de insetos, propriedades analgésicas e fortalecedora dos vasos sanguíneos (uso medicinal interno exige extrema cautela por ser tóxica em excesso).",
+        "imagem": "https://images.unsplash.com/photo-1551336531-183c72560806?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 19,
+        "nome": "Alface",
+        "nome_cientifico": "Lactuca sativa",
+        "categoria": "Hortaliça Folhosa",
+        "como_cuidar": "Sol pleno (ou meia-sombra no verão intenso para não espigar cedo). Solo fértil e sempre úmido. Vasos de 15 a 20 cm de profundidade já são suficientes.",
+        "beneficios": "Baixíssima caloria, rica em fibras, água e lactucina (substância presente no talo que atua como calmante natural).",
+        "imagem": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 20,
+        "nome": "Rúcula",
+        "nome_cientifico": "Eruca vesicaria",
+        "categoria": "Hortaliça Folhosa",
+        "como_cuidar": "Sol pleno ou meia-sombra. Solo constantemente úmido (a falta de água deixa as folhas excessivamente picantes e duras). Crescimento rápido (colheita em 30-40 dias).",
+        "beneficios": "Rica em vitaminas A, C e K, ácido fólico, cálcio e ferro; auxilia na desintoxicação do fígado e saúde óssea.",
+        "imagem": "https://images.unsplash.com/photo-1514729391575-b0ebbf0b3639?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 21,
+        "nome": "Espinafre",
+        "nome_cientifico": "Spinacia oleracea / Tetragonia tetragonioides",
+        "categoria": "Hortaliça Folhosa",
+        "como_cuidar": "Meia-sombra ou sol pleno ameno. Solo rico em nitrogênio (húmus de minhoca) e mantido sempre fresco e úmido.",
+        "beneficios": "Fonte expressiva de ferro, magnésio, potássio e luteína; protege a visão, combate a anemia e regula a pressão arterial.",
+        "imagem": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 22,
+        "nome": "Couve-manteiga",
+        "nome_cientifico": "Brassica oleracea var. acephala",
+        "categoria": "Hortaliça Folhosa",
+        "como_cuidar": "Sol pleno e vaso fundo (mínimo 30 cm e 15 litros). Regas diárias e atenção redobrada contra lagartas e pulgões.",
+        "beneficios": "Rica em fibras, cálcio, ferro, vitamina C e glucosinolatos (compostos que ajudam na proteção celular e saúde gástrica).",
+        "imagem": "https://images.unsplash.com/photo-1771015052799-67c03da75b93?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 23,
+        "nome": "Agrião-da-terra",
+        "nome_cientifico": "Barbarea verna",
+        "categoria": "Hortaliça Folhosa",
+        "como_cuidar": "Meia-sombra e solo bastante úmido, rico em matéria orgânica. Nunca deixe o substrato secar totalmente.",
+        "beneficios": "Ação descongestionante, expectorante, antianêmica e fortificante, com alto teor de vitamina C, iodo e ferro.",
+        "imagem": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 24,
+        "nome": "Tomate-cereja",
+        "nome_cientifico": "Solanum lycopersicum var. cerasiforme",
+        "categoria": "Hortaliça-fruto",
+        "como_cuidar": "Sol pleno (mínimo 6h de sol). Vaso de no mínimo 10 a 15 litros. Necessita de tutor (estaca) para amarrar o caule e regas regulares na terra (nunca nas folhas).",
+        "beneficios": "Riquíssimo em licopeno (poderoso antioxidante que protege a próstata e o sistema cardiovascular), além de vitaminas A e C.",
+        "imagem": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 25,
+        "nome": "Pimenta Biquinho",
+        "nome_cientifico": "Capsicum chinense",
+        "categoria": "Hortaliça-fruto / Condimento",
+        "como_cuidar": "Sol pleno, solo bem drenado e adubado com fósforo e potássio (ex: farinha de ossos) para estimular a frutificação. Regas moderadas.",
+        "beneficios": "Possui antioxidantes, vitaminas C e E, betacaroteno e efeito termogênico e anti-inflamatório sem ardência agressiva.",
+        "imagem": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 26,
+        "nome": "Pimenta Dedo-de-Moça",
+        "nome_cientifico": "Capsicum baccatum",
+        "categoria": "Condimento",
+        "como_cuidar": "Sol pleno (quanto mais sol, mais ardida e produtiva). Vaso médio (mínimo 5 a 8 litros), regas regulares sem encharcar.",
+        "beneficios": "Rica em capsaicina, que acelera o metabolismo, libera endorfinas, atua como analgésico natural e melhora a saúde vascular.",
+        "imagem": "https://images.unsplash.com/photo-1582284540020-8acbe03f4924?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 27,
+        "nome": "Morango",
+        "nome_cientifico": "Fragaria x ananassa",
+        "categoria": "Frutífera Rasteira",
+        "como_cuidar": "Sol pleno (horas mais frescas). Ideal para vasos suspensos ou jardineiras. Cubra a terra com palha seca para evitar que os frutos encostem no solo úmido e apodreçam.",
+        "beneficios": "Alto teor de vitamina C e antocianinas; combate o envelhecimento precoce, melhora a saúde cardíaca e controla a glicemia.",
+        "imagem": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 28,
+        "nome": "Rabanete",
+        "nome_cientifico": "Raphanus sativus",
+        "categoria": "Raiz Tuberosa",
+        "como_cuidar": "Sol pleno ou meia-sombra. Solo fofo, sem pedras e sempre úmido. É a cultura mais rápida da horta: colheita em apenas 25 a 30 dias após o plantio.",
+        "beneficios": "Estimula o funcionamento do fígado e da vesícula, é rico em fibras, água e vitamina C, além de ser diurético.",
+        "imagem": "https://images.unsplash.com/photo-1593105544559-ecb03bf76f82?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 29,
+        "nome": "Cenoura (variedades curtas/mini)",
+        "nome_cientifico": "Daucus carota",
+        "categoria": "Raiz Tuberosa",
+        "como_cuidar": "Sol pleno. Vaso profundo (mínimo 25 a 30 cm) com terra bem solta, arenosa e sem torrões para a raiz crescer reta. Semear direto no vaso definitivo.",
+        "beneficios": "Excelente fonte de betacaroteno (pró-vitamina A), essencial para a saúde dos olhos, da pele e do sistema imunológico.",
+        "imagem": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 30,
+        "nome": "Gengibre",
+        "nome_cientifico": "Zingiber officinale",
+        "categoria": "Rizoma Medicinal / Condimento",
+        "como_cuidar": "Meia-sombra, calor e umidade. Plante um pedaço de gengibre com 'olhos' (brotos) a 5 cm de profundidade em um vaso largo, pois o rizoma cresce horizontalmente.",
+        "beneficios": "Potente anti-inflamatório e termogênico natural; combate enjoos, dores de garganta, gripes e melhora a digestão.",
+        "imagem": "https://images.unsplash.com/photo-1630623093145-f606591c2546?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  }
+}
